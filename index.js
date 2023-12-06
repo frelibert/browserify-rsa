@@ -2,6 +2,7 @@
 
 var BN = require('bn.js');
 var randomBytes = require('randombytes');
+var Buffer = require('safe-buffer').Buffer;
 
 function getr(priv) {
 	var len = priv.modulus.byteLength();

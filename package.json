@@ -30,7 +30,8 @@
 	},
 	"dependencies": {
 		"bn.js": "^5.2.1",
-		"randombytes": "^2.1.0"
+		"randombytes": "^2.1.0",
+		"safe-buffer": "^5.2.1"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.1",

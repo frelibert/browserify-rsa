@@ -4,7 +4,9 @@ var crypto = require('crypto');
 var constants = require('constants');
 var parseKey = require('parse-asn1');
 var BN = require('bn.js');
+var Buffer = require('safe-buffer').Buffer;
 var test = require('tape');
+
 var crt = require('../');
 
 var fixtures = require('./fixtures');
