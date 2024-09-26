@@ -24,8 +24,8 @@
 		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"dependencies": {
-		"bn.js": "^5.0.0",
-		"randombytes": "^2.0.1"
+		"bn.js": "^5.2.1",
+		"randombytes": "^2.1.0"
 	},
 	"devDependencies": {
 		"@ljharb/eslint-config": "^21.1.1",
